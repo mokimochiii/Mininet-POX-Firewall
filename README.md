@@ -13,8 +13,13 @@ Start the controller with:
 
 ## FIREWALL RULES
 General Connectivity: To facilitate general network connectivity, allow all ARP traffic across the network
+
 DoS Protection: Allow all ICMP traffic across the network EXCEPT those sent to the Web Server
+
 Web Traffic: Allow all TCP traffic between the laptop and the iPad.  
+
 IoT devices: Allow all UDP  traffic between the heater and the lights.  Allow all TCP traffic between the iPad and the IoT devices (heater and lights). 
+
 Laptop/iPad General Management: Allow all UDP traffic between the laptop and the iPad.
+
 Default Deny: Block all traffic that does not match the above criteria.
